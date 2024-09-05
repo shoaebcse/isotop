@@ -1,0 +1,261 @@
+@font-face {
+  font-family: 'Helvetica';
+  src: url("../css/fonts/webfont/Helvetica.eot?#iefix") format("embedded-opentype"), url("../css/fonts/webfont/Helvetica.otf") format("opentype"), url("../css/fonts/webfont/Helvetica.woff") format("woff"), url("../css/fonts/webfont/Helvetica.ttf") format("truetype"), url("../css/fonts/webfont/Helvetica.svg#Helvetica") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helvetica-Light';
+  src: url("../css/fonts/webfont/Helvetica-Light.eot?#iefix") format("embedded-opentype"), url("../css/fonts/webfont/Helvetica-Light.otf") format("opentype"), url("../css/fonts/webfont/Helvetica-Light.woff") format("woff"), url("../css/fonts/webfont/Helvetica-Light.ttf") format("truetype"), url("../css/fonts/webfont/Helvetica-Light.svg#Helvetica-Light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Graphik Web';
+  src: url("../css/fonts/webfont/Graphik-Regular-Web.eot?#iefix") format("embedded-opentype"), url("../css/fonts/webfont/Graphik-Regular-Web.ttf") format("ttf"), url("../css/fonts/webfont/Graphik-Regular-Web.woff") format("woff"), url("../css/fonts/webfont/Graphik-Regular-Web.ttf") format("truetype"), url("../css/fonts/webfont/Graphik-Regular-Web.svg#Graphik-Regular-Web") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Graphik Web';
+  src: url("../css/fonts/webfont/graphik-light-webfont.eot?#iefix") format("embedded-opentype"), url("../css/fonts/webfont/graphik-light-webfont.ttf") format("ttf"), url("../css/fonts/webfont/graphik-light-webfont.woff") format("woff"), url("../css/fonts/webfont/graphik-light-webfont.ttf") format("truetype"), url("../css/fonts/webfont/graphik-light-webfont.svg#graphik-light-webfont") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+body, h1, h2, h3, p, button {
+    font-family: 'Roboto', sans-serif;
+}
+.border {
+  width: 75px;
+  height: 4px;
+  border: 1px solid transparent !important;
+background-color: #699d31;
+}
+/* ========================================================================== > portfolio ========================================================================== */
+
+
+
+body {
+  font-family: 'Helvetica', sans-serif;
+  color: #333;
+}
+
+h2, h3 {
+  font-family: 'Helvetica-Light', sans-serif;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #333;
+}
+
+p {
+  font-family: 'Graphik Web', sans-serif;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.footer h3 {
+  color: #fff;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer .social-icon-footer ul {
+  padding-top: 20px;
+}
+
+.footer .social-icon-footer ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer .footer-buttom {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #444;
+}
+
+.footer .footer-buttom img {
+  margin-top: 20px;
+  max-width: 100px;
+}
+
+.footer .footer-buttom p {
+  margin-top: 20px;
+  color: #aaa;
+  font-size: 14px;
+}
+
+/* Team Section Styles */
+.team {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+}
+
+.team h2 {
+  color: #333;
+  margin-bottom: 50px;
+}
+
+.team .single-team {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.team .single-team img {
+  max-width: 100%;
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+
+.team .single-team h3 {
+  margin-bottom: 10px;
+  color: #666;
+  font-weight: bold;
+}
+
+.team .single-team p {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Button Styles */
+button.custom-btn, button.custom-btn-overlay, button.custom-btn-tem {
+  background-color: #7028a7;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button.custom-btn:hover, button.custom-btn-overlay:hover, button.custom-btn-tem:hover {
+  background-color: #842188;
+}
+
+button.custom-btn-overlay {
+  background-color: rgba(167, 40, 167, 0.8);
+}
+
+button.custom-btn-overlay:hover {
+  background-color: rgba(124, 33, 136, 0.9);
+}
+
+/* Portfolio Section Styles */
+.portfolio {
+  background-color: #f4f4f4;
+  padding: 60px 0;
+}
+
+.portfolio .portfolio-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.portfolio .portfolio-title h2 {
+  color: #333;
+}
+
+.portfolio .app-border {
+  width: 60px;
+  height: 3px;
+  background-color: #7b28a7;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.portfolio .button-group .button {
+  background-color: #7d28a7;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.portfolio .button-group .button:hover {
+  background-color: #cc00f5;
+}
+
+.portfolio .grid .element-item {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.portfolio .grid .element-item img {
+  max-width: 100%;
+  display: block;
+}
+
+.portfolio .isotope-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.portfolio .isotope-overlay h2 {
+  margin-bottom: 15px;
+}
+
+.portfolio .grid .element-item:hover .isotope-overlay {
+  opacity: 1;
+}
+
+/* Counter Section Styles */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
